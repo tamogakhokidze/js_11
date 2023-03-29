@@ -1,0 +1,34 @@
+img{
+    width: 100%;
+}
+
+
+.dots-parent{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transition: -50%;
+}
+.dot-child{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius:  50%;
+    margin: 8px;
+
+}
+.dot-child.activeDot{
+border: 5px solid yellow;
+}
+
+
+.backgroung-image{
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.error-text{
+    background-color: red;
+}
