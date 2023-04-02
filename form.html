@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-      <title>Document</title>
-      <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-    <form action="" id="registration-form">
-<div>
-    <label for="username-field">Username</label>
-    <input type="text" name = "username" id="username-field">
-<p class="error-text" id="error-username"></p>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<div>
-    <label for="password-field">Password</label>
-    <input type="password" name = "password" id="password-field1">
-    <p class="error-text" id="error-password"></p>
-</div>
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <form action="" id="registration-form" method="post">
+      <div>
+        <label for="username-field">Username</label>
+        <input type="text" name="username" id="username-field" />
+        <p class="error-text" id="error-username"></p>
+      </div>
 
-<div>
-    <label for="password-field2">Repeat Password</label>
-    <input type="password" name = "password2" id="password-field2">
-    <p class="error-text" id="error-password2"></p>
-</div>
-<div>
-    <input type="radio" name="age" id="age1">
-    <label for="">18-30</label>
-    <input type="radio" name="age" id="age2">
-    <label for="">30-50</label>
-    <p class="error-text" id="error-age"></p>
-</div>
-<div>
-    <input type="checkbox" name="agree" id="agree">
-    <label for="agree">I agree terms and conditions</label>
-    <p class="error-text" id="error-agree"></p>
-</div>
-<button type="submit">Submit</button>
+      <div>
+        <label for="password-field">Password</label>
+        <input type="password" name="password" id="password-field1" />
+        <i class="fa-solid fa-eye" id="toggle-icon"></i>
+        <p class="error-text" id="error-password"></p>
+      </div>
 
+      <div>
+        <label for="password-field2">Repeat Password</label>
+        <input type="password" name="password2" id="password-field2" />
+        <p class="error-text" id="error-password2"></p>
+      </div>
+      <div>
+        <input type="radio" name="age" id="age1" />
+        <label for="">18-30</label>
+        <input type="radio" name="age" id="age2" />
+        <label for="">30-50</label>
+        <p class="error-text" id="error-age"></p>
+      </div>
+      <div>
+        <input type="checkbox" name="agree" id="agree" />
+        <label for="agree">I agree terms and conditions</label>
+        <p class="error-text" id="error-agree"></p>
+      </div>
+      <button type="submit">Submit</button>
     </form>
 
-        <script src="form.js"></script>
-
-    
-</body>
+    <script src="form.js"></script>
+    <script src="https://kit.fontawesome.com/0ec2e12077.js" crossorigin="anonymous"></script>
+  </body>
 </html>
+
+
+<!-- <i class="fa-solid fa-eye"></i>
+<i class="fa-solid fa-eye-slash"></i> -->
